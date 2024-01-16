@@ -1,9 +1,5 @@
-class Solution(object):
-    def findWinners(self, matches):
-        """
-        :type matches: List[List[int]]
-        :rtype: List[List[int]]
-        """
+class Solution:
+    def findWinners(self, matches: List[List[int]]) -> List[List[int]]:
         zeroLoses = []
         oneLose = []
         team_map = {}
